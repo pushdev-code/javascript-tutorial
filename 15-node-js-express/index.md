@@ -29,7 +29,7 @@ Install:
 First web server:
 
   * Create index.js
-  * ```js
+  ```js
   const express = require('express');
   const app = express();
 
@@ -70,7 +70,7 @@ JSON is text, written with JavaScript object notation.
 
 Data is represented in name/value pairs
 
-```
+```json
 {
   "squadName": "Super hero squad",
   "homeTown": "Metro City",
