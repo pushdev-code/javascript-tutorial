@@ -28,8 +28,9 @@ Install:
 ```
 First web server:
 
-  * Create index.js
-  ```js
+1. Create index.js
+
+```js
   const express = require('express');
   const app = express();
 
@@ -37,9 +38,15 @@ First web server:
     res.send('hello world')
   });
   app.listen(3000);
-  ```
-  * In your current folder run ``` node index.js ```
-  * Open http://localhost:3000 in your browser and a hello world message should appear.
+```
+
+2. In your current folder run
+
+```js
+  node index.js
+```
+
+3. Open http://localhost:3000 in your browser and a hello world message should appear.
 
 ## REST
 
