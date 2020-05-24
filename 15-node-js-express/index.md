@@ -98,7 +98,7 @@ app.use((req, res, next) => {
 Create **post** method.
 
 ```
-app.post('/submit-form', function (req, res) {
+app.post('/products', function (req, res) {
     const product = {
         name: req.body.name,
         price: req.body.price,
