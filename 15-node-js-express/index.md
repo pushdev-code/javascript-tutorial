@@ -29,7 +29,7 @@ Install:
 
 First web server:
 
-1. Create index.js
+1. Create the `index.js` file.
 
 ```js
   const express = require('express');
@@ -67,6 +67,55 @@ Methods:
 * DELETE (D)
 
 https://restcountries.eu/
+
+### Example
+
+1. Create the `index.js` file.
+2. Install express running `npm install express`
+3. In your `index.js` file
+
+Setup the server.
+
+```
+const express = require('express');
+const app = express();
+app.set('port', 5000);
+app.use(express.json());
+let products = [];
+```
+
+Configure CORS.
+
+```
+app.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Methods', 'GET,POST');
+    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
+    next();
+});
+```
+
+Create **post** method.
+
+```
+app.post('/submit-form', function (req, res) {
+    const product = {
+        name: req.body.name,
+        price: req.body.price,
+        description: req.body.description
+    }
+    products.push(product);
+    res.send(products);
+});
+```
+
+Finally `listen`. And run `node index.js`
+
+```
+app.listen(app.get('port'), () => {
+    console.log(`Server listening on port ${app.get('port')}`);
+});
+```
 
 ## JSON
 
