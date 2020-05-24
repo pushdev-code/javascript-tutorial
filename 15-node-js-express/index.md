@@ -135,6 +135,5 @@ Data is represented in name/value pairs
 
 ## Tutorials
 
-https://www.youtube.com/watch?v=pKd0Rpw7O48&t=9s
-
-https://medium.com/@asfo/desarrollando-una-sencilla-api-rest-con-nodejs-y-express-cab0813f7e4b
+* [ExpressJS](https://www.youtube.com/watch?v=pKd0Rpw7O48&t=9s)
+* [API REST](https://medium.com/@asfo/desarrollando-una-sencilla-api-rest-con-nodejs-y-express-cab0813f7e4b)
