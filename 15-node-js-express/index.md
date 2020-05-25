@@ -76,7 +76,7 @@ https://restcountries.eu/
 
 Setup the server.
 
-```
+```js
 const express = require('express');
 const app = express();
 app.set('port', 5000);
@@ -86,7 +86,7 @@ let products = [];
 
 Configure CORS.
 
-```
+```js
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Methods', 'GET,POST');
@@ -97,7 +97,7 @@ app.use((req, res, next) => {
 
 Create **post** method.
 
-```
+```js
 app.post('/products', function (req, res) {
     const product = {
         name: req.body.name,
@@ -111,7 +111,7 @@ app.post('/products', function (req, res) {
 
 Finally `listen`. And run `node index.js`
 
-```
+```js
 app.listen(app.get('port'), () => {
     console.log(`Server listening on port ${app.get('port')}`);
 });
