@@ -6,7 +6,7 @@ In this section we are going to work with REST, JSON and NodeJS-Express.
 
 Node.js is a JavaScript runtime built on Chrome’s V8 JavaScript engine.
 
-Node.js’ package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
+Node.js package ecosystem, [npm](https://www.npmjs.com/), is the largest ecosystem of open source libraries in the world.
 
 Basically... it's a framework used for scalable server-side and networking applications.
 
@@ -16,7 +16,7 @@ Basically... it's a framework used for scalable server-side and networking appli
 
 Is a Node.js web application server framework, which is designed for building single-page, multi-page, and hybrid web applications.
 
-It has become the standard server framework for node.js. Express is the backend part of something known as the MEAN stack (MongoDB, ExpressJS, AngularJS, NodeJS).
+It has become the standard server framework for node.js. [Express](https://expressjs.com/en/4x/api.html) is the backend part of something known as the MEAN stack (MongoDB, ExpressJS, AngularJS, NodeJS).
 
 Install:
 
