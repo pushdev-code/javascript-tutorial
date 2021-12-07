@@ -169,6 +169,6 @@ f();
 1. In your forked `Javascript tutorial` repo, create a new branch named `feature/fetch-exercise`
 2. Create `fetch.html` and `fetch.js` files in the `3-fetch-api-ajax` folder.
 3. Reference the `fetch.js` so it can be used in `fetch.html`.
-4. Create a fetch request to this URL https://api.github.com/repos/push-dev/frontend-roadmap/commits
+4. Create a fetch request to this URL https://api.github.com/repos/pushdev-code/javascript-tutorial/commits
 5. Display the image of the commit author and the committer name in `fetch.html`.
 6. Push your changes and create the Pull request.
