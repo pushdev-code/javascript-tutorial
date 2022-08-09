@@ -261,12 +261,12 @@
   
   ## Do you understand?
   
-  1. Create index.html and main.js
-  2. Fetch from https://restcountries.eu/ all the Europeans countries using constants and scoping.
-  3. Create a Country class with name and area attributes. For each country create an instance of Country class.
-  4. Save each country in an array.
-  5. Filter the country with the condition *area>40000*. Use the filter method (Arrow function).
-  6. Use Template Literals to print the filter results. *Country #i: country_name - country_area*
+  1. Create index.html, country.js, and main.js
+  2. In main.js, Fetch from https://restcountries.com/#api-endpoints-v3-code all the Europeans countries using constants and scoping.
+  3. In country.js, create a Country class with name and currency attributes.
+  4. In main.js, For each country create an instance of Country class. Import country module and Save each country in an array.
+  5. Filter the country with the condition *currency==dollar*. Use the filter method (Arrow function).
+  6. Use Template Literals to print the filter results. *Country #i: country_name - country_currency*
   
   ### References
   
