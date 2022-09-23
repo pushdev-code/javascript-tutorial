@@ -75,8 +75,7 @@ We can create "pre" and "post" scripts for *any of our scripts*, and NPM will a
 
 ```json
 "scripts": {
-  "start": "node app.js",
-  "test": "NODE_ENV=test mocha --reporter spec"
+ 	"start": "NODE_ENV=test node main.js"
 },
 ```
 
